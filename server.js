@@ -21,7 +21,7 @@ app.use(session({
 }));
 
 // MongoDB Connection
-const MONGO_URI = "mongodb+srv://project701379:6hZsIzc81F8R5uzu@clusternew.snn8v.mongodb.net/fundraising_db?retryWrites=true&w=majority&appName=ClusterNew";
+const MONGO_URI = "";
 mongoose.connect(MONGO_URI)
     .then(() => console.log("✅ MongoDB Connected Successfully!"))
     .catch(err => console.error("❌ MongoDB Connection Failed:", err));
