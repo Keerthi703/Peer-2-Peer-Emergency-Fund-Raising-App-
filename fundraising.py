@@ -19,7 +19,7 @@ app.add_middleware(
 )
 
 # ✅ Connect to MongoDB
-MONGO_URI = "mongodb+srv://project701379:6hZsIzc81F8R5uzu@clusternew.snn8v.mongodb.net/fundraising_db"
+MONGO_URI = ""
 
 try:
     client = MongoClient(MONGO_URI)
