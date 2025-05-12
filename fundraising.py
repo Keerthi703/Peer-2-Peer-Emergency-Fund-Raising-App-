@@ -105,32 +105,4 @@ async def store_transaction(request: TransactionRequest):
 
 
 
-# from fastapi import FastAPI, HTTPException
-# from pydantic import BaseModel
-# from pymongo import MongoClient
 
-# app = FastAPI()
-
-# # Connect to MongoDB
-# client = MongoClient("mongodb+srv://project701379:6hZsIzc81F8R5uzu@clusternew.snn8v.mongodb.net/?retryWrites=true&w=majority&appName=ClusterNew")
-# db = client["fundraising_db"]  # Database name
-# collection = db["campaigns"]  # Collection name
-
-# # Define request model
-# class FundraisingRequest(BaseModel):
-#     user: str
-#     amount: float
-#     description: str
-#     medical_docs: list[str]
-
-# @app.post("/create-fundraising")
-# async def create_fundraising(request: FundraisingRequest):
-#     # Store the campaign in MongoDB
-#     campaign_data = request.model_dump()
-
-#     result = collection.insert_one(campaign_data)
-    
-#     return {
-#         "message": "Campaign created successfully!",
-#         "campaign_id": str(result.inserted_id)
-#     }
