@@ -2,11 +2,6 @@
 Peer2Peer Emergency Fundraising App is a decentralized mobile/web application designed to connect individuals in urgent financial need with willing donors directly—without intermediaries. The platform empowers users to raise emergency funds from friends, family, and community members in a transparent and secure way.
 # 🆘 Peer2Peer Emergency Fundraising App
 
-![License](https://img.shields.io/github/license/your-username/peer2peer-emergency-app)
-![Issues](https://img.shields.io/github/issues/your-username/peer2peer-emergency-app)
-![Forks](https://img.shields.io/github/forks/your-username/peer2peer-emergency-app)
-![Stars](https://img.shields.io/github/stars/your-username/peer2peer-emergency-app)
-
 > A decentralized mobile/web app for raising and contributing to emergency funds with direct peer-to-peer support.
 
 ---
